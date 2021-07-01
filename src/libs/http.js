@@ -5,7 +5,7 @@ import { JUHE_APPKEY } from '@/config/keys'
 function axiosGet (options) {
   axios(options.url + '&key=' + JUHE_APPKEY)
     .then((res) => {
-      options.success(res)
+      options.success(res.data)
     })
     .catch((err) => {
       options.error(err)
