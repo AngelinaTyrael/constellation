@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  naem: 'NumItem',
+  name: 'NumItem',
   props: {
     item: Object,
     data: Object

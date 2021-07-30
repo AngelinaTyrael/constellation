@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <img src="../../assets/img/cons.png" />
+    <img src="../../assets/img/cons.png" alt="" />
     <h1>
       <slot></slot>
     </h1>
